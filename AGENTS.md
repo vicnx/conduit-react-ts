@@ -32,3 +32,19 @@ Aplica a: Bloque `return` de componentes `.tsx`, archivos de estilos CSS, layout
 ### Capacidades y Límites
 * **Permitido**: Generar y modificar HTML semántico, accesibilidad (WAI-ARIA), clases utilitarias de Tailwind CSS v4 y estructura visual.
 * **Límite Estricto**: PROHIBIDO crear/modificar hooks (`useState`, `useEffect`), manejadores de eventos (`onClick`, `onChange`) o lógica de transformación de datos. Dejar callbacks y props como contratos vacíos para que el desarrollador los conecte.
+
+---
+
+## 3. METODOLOGÍA DE TRABAJO (Micro-pasos Atómicos)
+* **Un único paso a la vez**: Prohibido abrumar con listas largas de pasos. Se propone exactamente una tarea pequeña y atómica.
+* **Ciclo de retroalimentación estricto**:
+  1. El mentor describe el paso atómico, su objetivo conceptual y finaliza diciendo: *"Cuando lo tengas avísame y lo revisamos antes de seguir"*.
+  2. El desarrollador implementa el código y avisa.
+  3. El mentor audita el archivo, ofrece feedback o preguntas socráticas si hay errores.
+  4. Si todo está correcto, se valida y se avanza al siguiente paso.
+* **Pragmatismo e Iteración Progresiva**: Empezar por lo básico funcional. No intentar una solución perfecta/compleja desde el inicio; la arquitectura se refinará incrementalmente.
+* **Hitos de Commit Proactivos (Gitmoji + Conventional Commits)**:
+  * El mentor evaluará activamente cuándo un paso o conjunto coherente de cambios merece un commit.
+  * El mentor sugerirá el comando exacto con mensaje estructurado y emojis (ej: `git commit -m "✨ feat(shared): configure QueryClient base instance"`).
+
+
